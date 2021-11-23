@@ -41,12 +41,14 @@
   z-index: 2;
 }
 .input_div {
+  margin-top: 15vh;
   border: 2px solid green;
   height: 60vh;
   width: 60vw;
   background: rgba(231, 226, 226, 0.932);
 }
 .edit_div {
+  /* margin-top: 15vh; */
   border: 2px solid green;
   height: 60vh;
   width: 60vw;
