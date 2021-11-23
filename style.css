@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg_Blue {
+  background: blueviolet;
+}
+.fa-bars {
+  color: white;
+}
+
+.addButton {
+  left: 35%;
+  top: 100%;
+}
+
+.listbox {
+  height: 50px;
+  padding-left: 30px;
+  border: 2px solid blueviolet;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 15px;
+  position: relative;
+  /* justify-content: center; */
+}
+.hidden {
+  display: none !important;
+}
+.completed {
+}
+.absolute {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+}
+.input_div {
+  border: 2px solid green;
+  height: 60vh;
+  width: 60vw;
+  background: rgba(231, 226, 226, 0.932);
+}
+.edit_div {
+  border: 2px solid green;
+  height: 60vh;
+  width: 60vw;
+  background: rgba(231, 226, 226, 0.932);
+}
+
+.right_top {
+  top: 0;
+  right: 0;
+}
+.inputbox,
+.editbox {
+  height: 40px;
+  width: 40%;
+}
+.addButton {
+  border: 2px solid blueviolet;
+  height: 55px;
+
+  text-align: center;
+  background: blueviolet;
+  cursor: pointer;
+}
+
+.addItem {
+  font-weight: 500;
+  color: white;
+  border: 2px solid blueviolet;
+  padding-top: 10px;
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  background: orange;
+  cursor: pointer;
+}
+.saveItem {
+  font-weight: 500;
+  color: white;
+  border: 2px solid blueviolet;
+  padding-top: 10px;
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  background: orange;
+  cursor: pointer;
+}
+.cross {
+  cursor: pointer;
+}
+
+button {
+  padding: 3px 20px;
+  margin: 10px 10px;
+  border: none;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+}
+.fa-check-square {
+  margin-right: 10px;
+}
+.smallBox {
+  border: 2px solid black;
+  padding: 10px 10px;
+}
