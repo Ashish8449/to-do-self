@@ -53,7 +53,7 @@ function addItemli(e) {
 
   //   complete button
   const completeButton = document.createElement("button");
-  completeButton.innerHTML = '<i class="fas fa-check"></i>';
+  completeButton.innerHTML = '<i class="fas smallBox"></i>';
   completeButton.classList.add("btn");
   span.appendChild(completeButton);
   // trash button

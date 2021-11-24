@@ -6,6 +6,7 @@
 
 .bg_Blue {
   background: blueviolet;
+  border-radius: 10px;
 }
 .fa-bars {
   color: white;
@@ -30,8 +31,7 @@
 .hidden {
   display: none !important;
 }
-.completed {
-}
+
 .absolute {
   position: absolute;
   top: 38%;
@@ -41,18 +41,25 @@
   z-index: 2;
 }
 .input_div {
-  margin-top: 15vh;
-  border: 2px solid green;
+
+  border: 2px solid blueviolet;
   height: 60vh;
   width: 60vw;
-  background: rgba(231, 226, 226, 0.932);
+      position: absolute;
+  background: white;
+  opacity: 0.9;
+  border-radius: 10px;
+  top: 10vh;
 }
 .edit_div {
-  /* margin-top: 15vh; */
-  border: 2px solid green;
   height: 60vh;
   width: 60vw;
-  background: rgba(231, 226, 226, 0.932);
+  margin-top: 15vh;
+  border: 2px solid blueviolet;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 10vh;
 }
 
 .right_top {
@@ -63,10 +70,13 @@
 .editbox {
   height: 40px;
   width: 40%;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
 }
 .addButton {
   border: 2px solid blueviolet;
   height: 55px;
+  border-radius: 10px;
 
   text-align: center;
   background: blueviolet;
@@ -81,8 +91,15 @@
   height: 50px;
   width: 80px;
   text-align: center;
-  background: orange;
+  background: blueviolet;
   cursor: pointer;
+  border-radius: 10px;
+}
+.addItem:hover,
+.addButton:hover,
+.saveItem:hover {
+  color: blueviolet !important;
+  background: rgb(245, 240, 240);
 }
 .saveItem {
   font-weight: 500;
@@ -92,8 +109,13 @@
   height: 50px;
   width: 80px;
   text-align: center;
-  background: orange;
+  background: blueviolet;
+  border-radius: 10px;
   cursor: pointer;
+}
+.border-primary{
+
+  border-bottom:  8px solid blueviolet !important;
 }
 .cross {
   cursor: pointer;
@@ -105,11 +127,30 @@ button {
   border: none;
   border: 2px solid blueviolet;
   border-radius: 10px;
+  border: none !important;
 }
 .fa-check-square {
   margin-right: 10px;
 }
 .smallBox {
-  border: 2px solid black;
+  border: 2px solid blueviolet;
   padding: 10px 10px;
+  margin-top: 7px;
+  border-radius: 6px;
 }
+
+.fa-times,
+.fas,
+.fal {
+  color: blueviolet;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none !important;
+  display: none !important;
+}
+ul h2 {
+  color: blueviolet !important;
+}
+
+.
